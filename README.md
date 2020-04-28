@@ -1,4 +1,4 @@
 # Kuiper OS
-A operating system for PCs and Laptops written in C#. Built on the COSMOS OS kernel. Developed by Vitality Labs.
+A operating system written in C# and built on the Cosmos kernel. Developed by Vitality Labs.
 
 Current Version: v0.0.1
