@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\David\\Documents\\Workspaces\\C# Workspace\\KuiperOS\\KuiperOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\David\\Documents\\Workspaces\\C# Workspace\\KuiperOS\\KuiperOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\Documents\\Workspaces\\C# Workspace\\KuiperOS\\KuiperOS.csproj",
+        "projectName": "KuiperOS",
+        "projectPath": "C:\\Users\\David\\Documents\\Workspaces\\C# Workspace\\KuiperOS\\KuiperOS.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\Documents\\Workspaces\\C# Workspace\\KuiperOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\David\\AppData\\Local\\Xenko\\NugetDev": {},
+          "C:\\Users\\David\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.xenko.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Cosmos.Build": {
+              "target": "Package",
+              "version": "[0.0.0-*, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Cosmos.Debug.Kernel": {
+              "target": "Package",
+              "version": "[0.0.0-*, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Cosmos.System2": {
+              "target": "Package",
+              "version": "[0.0.0-*, )",
+              "noWarn": [
+                "NU1604"
+              ]
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.9, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "cosmos": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

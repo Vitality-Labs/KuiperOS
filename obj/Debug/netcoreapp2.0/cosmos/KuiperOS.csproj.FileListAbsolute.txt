@@ -1,0 +1,9 @@
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\bin\Debug\netcoreapp2.0\cosmos\KuiperOS.deps.json
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\bin\Debug\netcoreapp2.0\cosmos\KuiperOS.dll
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\bin\Debug\netcoreapp2.0\cosmos\KuiperOS.pdb
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.csprojAssemblyReference.cache
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.AssemblyInfoInputs.cache
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.AssemblyInfo.cs
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.dll
+C:\Users\David\Documents\Workspaces\C# Workspace\KuiperOS\obj\Debug\netcoreapp2.0\cosmos\KuiperOS.pdb
