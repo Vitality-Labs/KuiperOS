@@ -7,23 +7,27 @@ using Sys = Cosmos.System;
 namespace KuiperOS {
     public class Kernel : Sys.Kernel {
 
-        private IOHandler ioHandler;
-        private CommandHandler commandHandler;
-        private Sys.FileSystem.CosmosVFS fileSystem;
-
-        bool testRun = false;
+        private GraphicsManager graphicsManager {get; set;}
+        private DirectoryManager directoryManager {get; set;}
+        private IOHandler ioHandler {get; set;}
+        private CommandHandler commandHandler {get; set;}
+        private Sys.FileSystem.CosmosVFS fileSystem {get; set;}
 
         protected override void BeforeRun() {
             fileSystem = new Sys.FileSystem.CosmosVFS();
             Sys.FileSystem.VFS.VFSManager.RegisterVFS(fileSystem);
             ioHandler = new IOHandler();
             commandHandler = new CommandHandler(this);
+            graphicsManager = new GraphicsManager(this);
+            graphicsManager.Initialize();
+            directoryManager = new DirectoryManager(this);
+            directoryManager.Initialize();
             Console.Clear();
             Console.WriteLine("Kuiper OS booted successfully.");
         }
         protected override void Run() {
-            Console.Write("> ");
-            ioHandler.Output(commandHandler.RunCommand(ioHandler.GetInput()));
+            graphicsManager.Update();
+            directoryManager.Update();
         }
 
         public void RunTest() {
